@@ -1,4 +1,4 @@
-# Second Year Project Report
+# Project Report
 
 ## Sentinel Chain — Machine Learning-Based Illicit Transaction Detection on the Bitcoin Blockchain
 
@@ -61,7 +61,7 @@ The application is called **Sentinel Chain** and is intended for academic demons
 
 ## 3. Scope and Assumptions
 
-The project deliberately excludes several features that are outside a second-year academic project scope:
+The project deliberately excludes several features that are outside the academic project scope:
 
 - no wallet authentication or private-key handling;
 - no storage of seed phrases, names, emails or personal identity data;

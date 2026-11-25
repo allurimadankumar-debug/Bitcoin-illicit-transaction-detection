@@ -178,32 +178,31 @@ def build_html() -> str:
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Second Year Project Report - Sentinel Chain</title>
+<title>Project Report - Sentinel Chain</title>
 <style>
-  @page {{ size: A4; margin: 18mm 16mm 18mm 16mm; }}
+  @page {{ size: A4; margin: 11mm 12mm 11mm 12mm; }}
   * {{ box-sizing: border-box; }}
-  body {{ font-family: "Segoe UI", Arial, sans-serif; font-size: 10.5pt; line-height: 1.5; color: #182033; margin: 0; }}
-  h1 {{ color: #4c2a94; font-size: 23pt; line-height: 1.2; margin: 0 0 16px; border-bottom: 3px solid #22d3ee; padding-bottom: 10px; }}
-  h2 {{ color: #3b1f78; font-size: 15pt; margin: 28px 0 10px; border-bottom: 1px solid #cfd6e4; padding-bottom: 5px; break-before: page; }}
-  h2:first-of-type {{ break-before: auto; }}
-  h3 {{ color: #2563a8; font-size: 12pt; margin: 18px 0 7px; }}
-  p {{ margin: 0 0 9px; text-align: justify; }}
+  body {{ font-family: "Segoe UI", Arial, sans-serif; font-size: 9.2pt; line-height: 1.32; color: #182033; margin: 0; }}
+  h1 {{ color: #4c2a94; font-size: 19pt; line-height: 1.15; margin: 0 0 9px; border-bottom: 2px solid #22d3ee; padding-bottom: 6px; }}
+  h2 {{ color: #3b1f78; font-size: 12.5pt; margin: 13px 0 5px; border-bottom: 1px solid #cfd6e4; padding-bottom: 3px; }}
+  h3 {{ color: #2563a8; font-size: 10.5pt; margin: 9px 0 3px; }}
+  p {{ margin: 0 0 5px; text-align: justify; }}
   strong {{ color: #26314a; }}
-  blockquote {{ margin: 12px 0; padding: 9px 12px; background: #f1f5ff; border-left: 4px solid #6d5bd0; color: #30385a; }}
-  hr {{ border: none; border-top: 1px solid #d8deea; margin: 18px 0; }}
-  table {{ border-collapse: collapse; width: 100%; margin: 10px 0 14px; font-size: 9.2pt; page-break-inside: avoid; }}
-  th, td {{ border: 1px solid #cbd3e1; padding: 5px 7px; text-align: left; vertical-align: top; }}
+  blockquote {{ margin: 6px 0; padding: 5px 8px; background: #f1f5ff; border-left: 3px solid #6d5bd0; color: #30385a; }}
+  hr {{ border: none; border-top: 1px solid #d8deea; margin: 8px 0; }}
+  table {{ border-collapse: collapse; width: 100%; margin: 6px 0 8px; font-size: 8.1pt; }}
+  th, td {{ border: 1px solid #cbd3e1; padding: 2.5px 4px; text-align: left; vertical-align: top; }}
   th {{ background: #e9edf8; color: #2d2352; }}
   tr:nth-child(even) td {{ background: #f8fafc; }}
-  ul, ol {{ margin: 5px 0 11px 20px; padding: 0; }}
-  li {{ margin-bottom: 4px; }}
-  pre {{ background: #0b1430; color: #e8eefc; padding: 10px 12px; border-radius: 5px; overflow: auto; font-family: Consolas, monospace; font-size: 8.6pt; white-space: pre-wrap; page-break-inside: avoid; }}
+  ul, ol {{ margin: 3px 0 6px 16px; padding: 0; }}
+  li {{ margin-bottom: 2px; }}
+  pre {{ background: #0b1430; color: #e8eefc; padding: 6px 8px; border-radius: 4px; overflow: auto; font-family: Consolas, monospace; font-size: 7.8pt; white-space: pre-wrap; }}
   code {{ font-family: Consolas, monospace; }}
-  p code, li code, td code, blockquote code {{ background: #edf0f7; color: #7c2d9e; padding: 1px 3px; border-radius: 3px; }}
+  p code, li code, td code, blockquote code {{ background: #edf0f7; color: #7c2d9e; padding: 0 2px; border-radius: 2px; }}
   a {{ color: #2563a8; text-decoration: none; }}
-  figure {{ margin: 12px 0; text-align: center; page-break-inside: avoid; }}
-  figure img {{ max-width: 100%; max-height: 118mm; border: 1px solid #cbd3e1; border-radius: 5px; }}
-  figcaption {{ font-size: 9pt; color: #55627a; margin-top: 5px; }}
+  figure {{ margin: 6px 0; text-align: center; }}
+  figure img {{ max-width: 100%; max-height: 72mm; border: 1px solid #cbd3e1; border-radius: 4px; }}
+  figcaption {{ font-size: 7.8pt; color: #55627a; margin-top: 3px; }}
 </style>
 </head>
 <body>
