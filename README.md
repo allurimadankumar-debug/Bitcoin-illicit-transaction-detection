@@ -8,6 +8,8 @@ An academic, full-stack research dashboard for **machine-learning-assisted analy
 
 This submission delivers a working full-stack React/FastAPI research dashboard for machine-learning-assisted analysis of illicit transaction patterns, with temporal ML evaluation, NetworkX graph analytics, SQLite persistence, and an academic privacy-first interface. In the submitted environment the official Elliptic CSVs are not present, so the application runs in a clearly labelled **synthetic demo mode**; a Random Forest classifier trained on the deterministic demo data is deployed with held-out test precision, recall, F1, PR-AUC and ROC-AUC of `1.000` (confusion matrix `26 / 0 / 0 / 3`), and every UI/API response states that predictions are decision support, not proof of criminal activity. The same loader and training pipeline accepts the real Elliptic CSVs through `docs/KAGGLE_SETUP.md`, and the repository includes 27 backend tests, 8 frontend tests, a passing production build, and a 13-endpoint API smoke test.
 
+**Project report:** [REPORT.md](REPORT.md)
+
 ---
 
 ## 1. What is included
