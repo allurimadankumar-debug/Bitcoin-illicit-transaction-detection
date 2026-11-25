@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-white/5; }
+  html { color-scheme: dark; }
+  body {
+    @apply bg-navy-950 text-slate-200 antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'ss01';
+  }
+  ::selection { @apply bg-violet-500/40 text-white; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.18); border-radius: 8px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.32); }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}
