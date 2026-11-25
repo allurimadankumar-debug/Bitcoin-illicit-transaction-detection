@@ -2,13 +2,8 @@
 
 ## Sentinel Chain — Machine Learning-Based Illicit Transaction Detection on the Bitcoin Blockchain
 
-**Submitted by:** Alluri Madan Kumar  
+**Submitted by:** Alluri MadanKumar Mallikarjuna  
 **Repository:** [Bitcoin-illicit-transaction-detection](https://github.com/allurimadankumar-debug/Bitcoin-illicit-transaction-detection)  
-**Date:** 25 November 2026  
-
----
-
-> **Safety statement:** This project is academic decision-support software. **Model prediction is not proof of criminal activity**, is not legal evidence, and is not an accusation about any person or entity. Every prediction response in the application carries this warning.
 
 ---
 
